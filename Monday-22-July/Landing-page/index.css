@@ -3,7 +3,263 @@
     padding: 0;
 }
 
+/*General syling*/
 .proper_spacing
 {
     margin: 6px 120px;
 }
+.gen_flex{
+    display: flex;
+}
+.font
+{
+    font-family: "Public Sans", sans-serif;
+}
+
+/* Custom styling */
+
+.header_cont
+{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.header_cont ul li{
+    display: inline;
+    margin:2px 20px;
+}
+.logo
+{
+    width:109px;
+    height:64px;
+}
+.signup_btn{
+    background-color: #ee4266;  
+    padding:19px 44px;
+    color:#ffff;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.login_btn{
+    background-color: transparent;
+    border:none;
+    outline: none;
+    color:#013254;
+    margin-right: 32px;
+    
+}
+.intro_info{
+    margin-top: 100px;
+    width:70%;
+}
+.intro_info h1{
+    color: #232323;
+    font-size: 52px;
+}
+.intro_info h1 span{
+    color:#ee4266;
+}
+.intro_info p{
+    color: #232323;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.track_btn{
+    background-color: #ee4266;  
+    padding:19px 49px;
+    color:#ffff;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.track_nm{
+    width: 320px;
+    outline:none;
+    border:1px solid #9b9b9b;
+    background-color: #f8f8f8;
+    padding:18px 16px;
+    border-radius: 4px;
+    margin-right: 24px;
+}
+.block1 p{
+    color:#232323;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 104px;
+}
+.part1{
+    margin-top: 16px;
+    background-color: #FDECF0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 55.27px;
+}
+
+.img_space_right
+{
+    margin-right: 74px;
+    margin-left: 46px;
+}
+.part2{
+    background-color: #fbfbfb;
+}
+
+.header1 h2{
+    margin-top: 55px;
+    font-size: 30px;
+}
+
+.header1 h2 span{
+    color:#ee4266
+}
+.header1 p{
+    margin-top: 11px;
+    font-size: 14px;
+    margin-bottom: 27px;
+}
+
+.support24{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 69px;
+    margin-left: -200px;
+    margin-right: 145px;
+    margin-bottom: 150px;
+   
+    
+}   
+.supportbox{
+    border-radius: 16px;
+     border:1px solid #ee4266;
+     width: 200px;
+     max-height: 100px;
+     margin-right: 21px;
+     margin-top: 21px;
+     padding: 25px 25px;
+}
+.supportbox h3{
+    color: #ee4266;
+   
+   
+}  
+.supportbox p{
+    font-size: 12px;
+    margin-top: 8px;
+       
+}
+.solve2{
+    text-align: center;
+    margin-top: 74px;
+}
+.solve2 h5{
+    color: #9b9b9b;
+    font-weight: lighter;
+}
+.solve2 h2{
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-size: 40px;
+}
+.solve2 h2 span{
+    color: #ee4266;
+}
+.solve2 p{
+    font-size: 14px;
+}
+.solve2 button{
+    color: #ffff;
+    background-color: #ee4266;
+    width: 200px;
+    height: 50px;
+    margin-top: 32px;
+    border-radius: 6px;
+    border: none;
+}
+.blackmamba{
+    margin-top: 88px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: #090909;
+    border-radius: 16px;
+    width: 1200px;
+    height: 382px;
+    overflow: hidden;
+}
+.blackmamba h2{
+  color: #ffff;
+  margin-top: 54.2px;
+  margin-left: 52px;
+  font-size:40px ;
+}
+.blackmamba p{
+    color: #eeeeee;
+    margin-left: 61.25px;
+    margin-top: 8px;
+    font-size: 16px;
+}
+.store img{
+    margin-top: 40px;
+    margin-left: 64px;
+}
+.iphone{
+    margin-top: 54px;
+    margin-left: 200px;
+    
+}
+.we{
+    margin-left: 164px;
+    margin-top: 72px;
+}
+.we h1{
+    font-size: 60px;
+}
+.we p{
+    color:#FF5454;
+    margin-top: 8px;
+    font-size: 16px;
+}
+.we h2{
+    margin-top: 16px;
+    font-size: 40px;
+    color: #191919;
+}
+.cost{
+    overflow:hidden;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    margin-right: 100px;
+    margin-top: 85px;
+}
+.fon{
+     margin-left: 930px;
+     margin-top: 126px;
+     width: 161px;
+     height:43px;
+}
+.fon i {
+  width: 100px;
+  height: 100px;
+  
+}
+.down{
+    display:flex;
+   justify-content: space-between;
+   align-items: start;
+   font-size: 14px;
+   margin-top: 32px;
+}
+.down ul li{
+    display: inline;
+    margin-top: 32px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.down ul{
+    margin-left: -10px;
+}
+
+
+
